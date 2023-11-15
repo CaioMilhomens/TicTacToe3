@@ -1,0 +1,36 @@
+.pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+}
+
+.bloco {
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deletar {
+    border: 2px solid firebrick;
+    background-color: lightcoral;
+}
+
+.congelar {
+    pointer-events: none;
+}
+
+.cabou {
+    pointer-events: none;
+    background-color: pink;
+}
